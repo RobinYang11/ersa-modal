@@ -12,6 +12,11 @@
         "type": "git",
         "url": "git+https://github.com/RobinYang11/ersa-modal.git"
     },
+    "files": [
+        "lib",
+        "src",
+        "test"
+    ],
     "keywords": [
         "ersa-modal",
         "react",
