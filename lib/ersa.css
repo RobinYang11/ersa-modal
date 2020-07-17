@@ -1,0 +1,39 @@
+.modal .modal-mask {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000000d6;
+  opacity: 0.4;
+  z-index: 1000;
+}
+.modal .container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.modal .container .content {
+  width: 600px;
+  margin: 100px auto;
+  z-index: 1001;
+  position: relative;
+  background-color: white;
+}
+.alert-enter {
+  transform: scale(0.1);
+}
+.alert-enter-active {
+  transform: translateX(0);
+  transition: opacity 200ms, transform 200ms;
+}
+.alert-exit {
+  transform: scale(1);
+}
+.alert-exit-active {
+  transform: scale(0.1);
+  transition: opacity 200ms, transform 200ms;
+}
+
