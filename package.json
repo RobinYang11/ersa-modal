@@ -1,6 +1,6 @@
 {
     "name": "ersa-modal",
-    "version": "1.0.1",
+    "version": "1.0.4",
     "description": "react modal ",
     "main": "index.js",
     "scripts": {
@@ -65,7 +65,12 @@
         "webpack-merge": "^5.0.9",
         "yargs": "^15.3.1"
     },
-    "dependencies": {
-        "react-transition-group": "^4.3.0"
+    "dependencies": {},
+    "peerDependencies": {
+        "react-images": "^1.1.7",
+        "react-transition-group": "^4.3.0",
+        "prop-types": "^15.7.2",
+        "react": "^15.3.0 || ^16.2.0",
+        "react-dom": "^15.3.0 || ^16.2.0"
     }
 }

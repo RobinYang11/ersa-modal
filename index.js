@@ -1,4 +1,4 @@
 
 
 
-module.exports = require('./lib/ersa-modal.js')
+module.exports = require('./src/ErsaModal')

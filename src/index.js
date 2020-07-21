@@ -1,4 +1,5 @@
 
-import ErsaModal from './ErsaModal';
 
-export default ErsaModal;
+
+
+export { default as ErsaModal } from './ErsaModal';
